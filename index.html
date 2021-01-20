@@ -6,199 +6,101 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />        
-    
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/css/uikit.min.css" />
     <title>Emma &amp; Photography</title>
-
-    <style>
-        .row {
-          margin: 15px;
-        }
-    </style>    
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
-        <a class="navbar-brand" href="#">
-            Emma &amp; Photography
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#packages">Packages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+    <div class="uk-section uk-section-muted uk-padding-remove-top" uk-height-viewport>
+        <div class="uk-cover-container uk-height-medium">
+            <div class="uk-inline uk-margin">
+                <img src="https://images.unsplash.com/photo-1438109491414-7198515b166b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1980&h=800&q=80" alt="">
+                <div class="uk-position-top">
+                    <nav class="uk-navbar-container uk-navbar-transparent uk-light" uk-navbar>
+                        <div class="uk-navbar-right">
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-active"><a href="./index">Home</a></li>
+                                <li><a href="./portfolio">Portfolio</a></li>
+                                <li><a href="./packages">Packages</a></li>
+                                <li><a href="./about">About</a></li>
+                                <li><a href="./contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>    
+            </div>
         </div>
-    </nav>
-    <div class="container">
-        <div class="row" id="home">
-            <a href="#" class="col">
-                <img src="https://images.unsplash.com/photo-1438109491414-7198515b166b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1980&h=800&q=80" class="img-fluid">
-            </a>
-        </div>
-        <div class="row">
-            <p class="col text-center">
-                Random blurb, small summary. Lorem ipsum blah-blah.<br>
-                Random blurb, small summary. Lorem ipsum blah-blah. Longer text with some more details.<br>
-                Random blurb, small summary. Lorem ipsum blah-blah. Some foo-bar text.<br>
-                Random blurb, small summary. Lorem ipsum blah-blah.<br>
-            </p>
-        </div>
-        <div class="row">
-            <h4 class="col text-center">Recent Work</h4>
-            <div class="col-md-12">
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                        data-gallery="work-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox"
-                        data-gallery="work-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox"
-                        data-gallery="work-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-                    </a>
+        <div class="uk-section uk-section-small">
+            <div class="uk-container">
+                <h3 class="uk-heading-bullet">Emma &amp; Photography Services</h3>    
+                <div class="uk-grid-match uk-child-width-1-3@m uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <img class="uk-border-circle" src="https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" width="200" height="200" alt="Headshots">
+                            <h4>HEADSHOTS</h4>
+                            <h5>Perfectly Executed</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <img class="uk-border-circle" src="https://images.unsplash.com/photo-1528256507509-cc4facea43f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" width="200" height="200" alt="Family Shoots">
+                            <h4>FAMILY SHOOTS</h4>
+                            <h5>Ready. Steady. Click.</h5>    
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <img class="uk-border-circle" src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" width="200" height="200" alt="Portraits">
+                            <h4>PORTRAITS</h4>
+                            <h5>Filling the Frame</h5>    
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox"
-                        data-gallery="work-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox"
-                        data-gallery="work-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox"
-                        data-gallery="work-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                    </a>
+        
+            </div>
+        </div>
+        <div class="uk-section uk-section-small">
+            <div class="uk-container" uk-lightbox>
+                <h3 class="uk-heading-bullet">Recent Work</h3>
+                <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                    <div>
+                        <a href="https://unsplash.it/600.jpg?image=251">
+                            <img src="https://unsplash.it/600.jpg?image=251">
+                        </a>        
+                    </div>
+                    <div>
+                        <a href="https://unsplash.it/600.jpg?image=252">
+                            <img src="https://unsplash.it/600.jpg?image=252">
+                        </a>        
+                    </div>
+                    <div>
+                        <a href="https://unsplash.it/600.jpg?image=253">
+                            <img src="https://unsplash.it/600.jpg?image=253">
+                        </a>        
+                    </div>
+                </div>
+                <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                    <div>
+                        <a href="https://unsplash.it/600.jpg?image=254">
+                            <img src="https://unsplash.it/600.jpg?image=254">
+                        </a>        
+                    </div>
+                    <div>
+                        <a href="https://unsplash.it/600.jpg?image=255">
+                            <img src="https://unsplash.it/600.jpg?image=255">
+                        </a>        
+                    </div>
+                    <div>
+                        <a href="https://unsplash.it/600.jpg?image=256">
+                            <img src="https://unsplash.it/600.jpg?image=256">
+                        </a>        
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row" id="about">
-            <h4 class="col text-center">About</h4>
-            <div class="col-md-12">
-                <div class="row">
-                    <a href="#" class="col-sm-4">
-                        <img src="https://images.unsplash.com/photo-1593913534330-d916919ab308?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8cGhvdG9ncmFwaGVyfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60" class="img-fluid">
-                    </a>
-                    <span class="col-sm-8""><strong>Hello there!</strong> My name is Emma. Welcome to my Photography website! Info about Emma, blah-blah. Amazin
-                        photographer. One of two columns. Info about Emma, blah-blah. Amazin photographer. One of two
-                        columns. Info about Emma, blah-blah. Amazin photographer.</span>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="portfolio">
-            <h4 class="col text-center">Portfolio</h4>
-            <div class="col-md-12">
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                    </a>
-                    <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox"
-                        data-gallery="example-gallery" class="col-sm-4">
-                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="packages">
-            <h4 class="col text-center">Packages</h4>
-            <div class="col-md-12">
-                <script type="text/javascript" src="https://form.jotform.com/jsform/210186409193051"></script>       
-            </div>
-        </div>
-
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script>
-    <script id="rendered-js">
-        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });        
-    </script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.11/dist/js/uikit-icons.min.js"></script>    
 </body>
-
 </html>
